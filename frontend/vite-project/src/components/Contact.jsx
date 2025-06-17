@@ -66,13 +66,13 @@ const Contact = () => {
   return (
     <div id="contact" className="pt-10 px-4 py-8 bg-gray-50 min-h-screen">
       <h2 className="text-3xl md:text-4xl text-center font-bold text-blue-700 mb-4">Get in Touch</h2>
-      <p className='text-1xl m mb-10 text-center'>
+      <p className='text-lg mb-10 text-center text-gray-600'>
         Have questions? We're here to help you navigate your career journey
       </p>
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
         {/* Contact Form */}
         <form onSubmit={handleSubmit} className="bg-white shadow-md p-6 rounded-lg space-y-4">
-          <label>Name</label>
+          <label className='text-black'>Name</label>
           <input
             type="text"
             name="name"
@@ -80,9 +80,9 @@ const Contact = () => {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full border border-gray-300 p-3 rounded-md"
+            className="w-full border border-gray-300 p-3 rounded-md text-black"
           />
-          <label>Email</label>
+          <label className='text-black'>Email</label>
           <input
             type="email"
             name="email"
@@ -90,14 +90,14 @@ const Contact = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full border border-gray-300 p-3 rounded-md"
+            className="w-full border border-gray-300 p-3 rounded-md text-black"
           />
-          <label>Select Subject</label>
+          <label className='text-black'>Select Subject</label>
           <select
             name="subject"
             value={formData.subject}
             onChange={handleChange}
-            className="w-full border border-gray-300 p-3 rounded-md"
+            className="w-full border border-gray-300 p-3 rounded-md text-black"
           >
             {subjects.map((subj, idx) => (
               <option key={idx} value={subj}>
@@ -105,7 +105,7 @@ const Contact = () => {
               </option>
             ))}
           </select>
-          <label>Your Message</label>
+          <label className='text-black'>Your Message</label>
           <textarea
             name="message"
             placeholder="Your Message"
@@ -113,7 +113,7 @@ const Contact = () => {
             onChange={handleChange}
             required
             rows={5}
-            className="w-full border border-gray-300 p-3 rounded-md"
+            className="w-full border border-gray-300 p-3 rounded-md text-black"
           />
           <div className="flex justify-center">
             <button

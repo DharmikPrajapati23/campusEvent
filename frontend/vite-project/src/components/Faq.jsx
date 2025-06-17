@@ -43,9 +43,9 @@ const Faq = () => {
   };
 
   return (
-    <div id ="faq" className="max-w-4xl mx-auto py-12 px-4">
+    <div id ="faq" className="bg-gray-50 py-16 px-4 sm:px-8">
       <h2 className="text-3xl md:text-4xl text-center font-bold text-blue-700 mb-4">Frequently Asked Questions</h2>
-      <p className='text-1xl m mb-10 text-center'>
+      <p className='text-lg mb-10 text-center text-gray-600'>
       Quick answers to common questions about our webinar and referral program
       </p>
       <div className="space-y-4">
@@ -56,7 +56,7 @@ const Faq = () => {
           >
             <button
               onClick={() => toggleAnswer(index)}
-              className="w-full text-left font-medium text-lg flex justify-between items-center"
+              className="text-lg mb-2 text-center text-gray-600 w-full text-left font-medium text-lg flex justify-between items-center"
             >
               {faq.question}
               <span className="text-blue-600">{openIndex === index ? '-' : '+'}</span>

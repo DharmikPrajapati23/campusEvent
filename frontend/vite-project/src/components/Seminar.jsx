@@ -52,7 +52,7 @@ const Seminars = () => {
     <section className="py-16 bg-gray-50">
       <div id="seminar" className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl text-center font-bold text-blue-700 mb-4">Seminar Details </h2>
-        <p className="text-1xl m mb-10 text-center">Explore our upcoming professional seminars to accelerate your career growth</p>
+        <p className="text-lg mb-10 text-center text-gray-600">Explore our upcoming professional seminars to accelerate your career growth</p>
 
         {loading ? (
           <div className="text-center p-8">

@@ -7,7 +7,7 @@ import Seminar from "../components/Seminar"
 import Contact from "../components/Contact";
 import Faq from "../components/Faq";
 import Registration from "../components/Registration";
-
+import Chat from "../components/Chat"
 // import Webinar from "../components/Webinar";
 // import Registration from "../components/Registration";
 
@@ -22,6 +22,7 @@ const Home = () => {
       <section id="faq"><Faq /></section>
       <section id="contact"><Contact /></section>
       <section id="registation"><Registration /></section>
+      <section id="chat"><Chat /></section>
 
 
 

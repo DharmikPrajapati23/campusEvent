@@ -14,6 +14,8 @@ const Navbar = () => {
     { label: "Register", href: "#registration" },
     { label: "FAQ", href: "#faq" },
     { label: "Contact", href: "#contact" },
+    { label: "Chat", href: "#chat" },
+
   ];
 
   return (

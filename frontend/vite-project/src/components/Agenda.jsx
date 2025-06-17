@@ -26,9 +26,9 @@ const Agenda = () => {
     }, []);
 
     return (
-        <section className="bg-gray-100 py-16 px-4 sm:px-8">
+        <section className="bg-gray-50 py-16 px-4 sm:px-8">
             <h2 className="text-3xl md:text-4xl text-center font-bold text-blue-700 mb-4">Webinar Agenda</h2>
-            <p className="text-1xl m mb-10 text-center">Everything you need to know about our comprehensive career counselling session</p>
+            <p className="text-lg mb-10 text-center text-gray-600">Everything you need to know about our comprehensive career counselling session</p>
 
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
                 {/* LEFT: Dynamic Agenda List */}
