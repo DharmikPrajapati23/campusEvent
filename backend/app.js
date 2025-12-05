@@ -7,22 +7,7 @@ const paymentRouter = require("./src/router/payment");
 const adminRouter = require("./src/router/admin");
 
 
-
-
-
-
-
-
-
-
-
-
 require("dotenv").config();
-
-
-
-
-
 
 app.use(
   cors({

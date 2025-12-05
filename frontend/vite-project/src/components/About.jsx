@@ -61,7 +61,7 @@ const About = () => {
         {/* Right Image */}
         <div className="flex justify-center md:justify-end">
           <img
-            src="./images/guni-campus.jpeg"
+            src="/images/guni-campus.jpeg"
             alt="GUNI Campus"
             className="w-full md:w-[500px] lg:w-[600px] xl:w-[700px] h-auto rounded-2xl shadow-lg"
           />

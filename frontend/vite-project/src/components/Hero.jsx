@@ -4,16 +4,16 @@
 
 import React from "react";
 import { Users } from "lucide-react"; // Import only the necessary icons
-import { useNavigate } from "react-router-dom";
+import heroBanner from "../../images/hero-banner.jpg";
 
 const Hero = () => {
-  const navigate = useNavigate();
+  
 
   return (
     <div
       className="relative bg-cover bg-center h-[85vh] flex items-center"
       style={{
-        backgroundImage: "url('../images/hero-banner.jpg')",
+        backgroundImage: `url(${heroBanner})`,
       }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
